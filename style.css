@@ -1,0 +1,74 @@
+body{
+    background-size:cover
+}
+
+#heading{
+    font-size: 25px;
+    width:100%;
+    margin:0px;
+    background-color: rgba(22, 100, 119, 0.607);
+    padding-top:15px;
+    padding-bottom:15px;
+    color:black;
+    font-weight:bold;
+    font-family:aerial;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#note{
+    font-size:20px;
+}
+
+.div_speed {
+    float:right;
+    margin-right:10px;
+}
+
+.div_speed_img
+{
+    width:150px;
+    border-radius:100px;
+    float:right;
+}
+
+#speed,#volume{
+    color:black;
+    font-weight: 600;
+    text-shadow:0px 0px 15px white;
+}
+
+.div_volume {
+    float:right;
+    margin-top:150px;
+    margin-right:-150px;
+}
+
+.div_volume_img
+{
+    width:150px;
+    border-radius:100px;
+    float:right;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius:20px;
+    margin-top:130px;
+}
+
+i{
+    margin-top:-100px;
+    float:left;
+    color:white;
+}
+
+#pause{
+    display: none;
+    margin-left: 100px;
+}
+
+#play{
+    margin-left: 150px;
+}
